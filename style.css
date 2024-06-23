@@ -1019,11 +1019,6 @@ form textarea {
   }
 }
 
-@media (max-width:400px) {
-  .home-content h5{
-    font-size: 1.5rem;
-  }
-}
 
 @media (max-width:330px) {
   .title{
