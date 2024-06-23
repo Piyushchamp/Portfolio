@@ -56,23 +56,23 @@ header {
   cursor: pointer; 
 }
 
-.Navbar {
+.navbar {
   display: flex;
 }
 
-.Navbar li {
+.navbar li {
   position: relative;
 }
 
 
-.Navbar a {
+.navbar a {
   font-size: var(--p-font);
   color: var(--text-color);
   font-weight: 500;
   padding: 10px 27px;
 }
 
-.Navbar a::after {
+.navbar a::after {
   content: '';
   position: absolute;
   width: 0;
@@ -83,7 +83,7 @@ header {
   transition: ease .40s;
 }
 
-.Navbar a:hover::after {
+.navbar a:hover::after {
   width: 100%;
 }
 
@@ -848,7 +848,7 @@ form textarea {
   }
 
   header.sticky {
-    /* padding: 10px 3%; */
+    padding: 10px 3%;
     transition: .3s;
   }
 
@@ -898,13 +898,12 @@ form textarea {
     min-height: 80vh;
   }
 
-  .Navbar {
+  .navbar {
     position: absolute;
-    /* top:80px;  */
     top: -600px;
     /* left:0; */
-    /* right: -200px; */
     right: 0;
+    /* right: -200px; */
     flex-direction: column;
     color: black;
     background: var(--main-color);
@@ -913,7 +912,7 @@ form textarea {
     width: 200px;
   }
 
-  .Navbar a {
+  .navbar a {
     display: block;
     padding: 1.2rem;
     margin: 1.5rem;
@@ -921,16 +920,16 @@ form textarea {
     color: var(--bg-color);
   }
 
-  .Navbar a:hover {
+  .navbar a:hover {
     background: var(--bg-color);
     color: var(--main-color);
   }
 
-  .Navbar a::after {
+  .navbar a::after {
     display: none;
   }
 
-  .Navbar.active {
+  .navbar.active {
     top: 100%;
     /* right: 1%; */
   }
