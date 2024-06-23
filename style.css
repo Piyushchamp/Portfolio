@@ -6,6 +6,7 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
+  list-style: none;
 }
 
 :root {
@@ -15,7 +16,7 @@
   --main-color: #f75023;
   --big-font: 4rem;
   --h2-font: 3rem;
-  --p-font: 1.1rem;
+  --p-font: 1.3rem;
 }
 
 body {
@@ -34,7 +35,8 @@ header {
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  padding: 15px 18%;
+  /* padding: 15px 18%; */
+  height: 4.5rem;
   transition: .3s;
 }
 
@@ -54,22 +56,23 @@ header {
   cursor: pointer; 
 }
 
-.navbar {
+.Navbar {
   display: flex;
 }
 
-.navbar li {
+.Navbar li {
   position: relative;
 }
 
-.navbar a {
+
+.Navbar a {
   font-size: var(--p-font);
   color: var(--text-color);
   font-weight: 500;
   padding: 10px 27px;
 }
 
-.navbar a::after {
+.Navbar a::after {
   content: '';
   position: absolute;
   width: 0;
@@ -80,7 +83,7 @@ header {
   transition: ease .40s;
 }
 
-.navbar a:hover::after {
+.Navbar a:hover::after {
   width: 100%;
 }
 
@@ -163,7 +166,8 @@ section {
 
 header.sticky {
   background: var(--bg-color);
-  padding: 13px 18%;
+  /* padding: 13px 18%; */
+  height: 4.5rem;
   box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
 }
 
@@ -844,7 +848,7 @@ form textarea {
   }
 
   header.sticky {
-    padding: 10px 3%;
+    /* padding: 10px 3%; */
     transition: .3s;
   }
 
@@ -894,7 +898,7 @@ form textarea {
     min-height: 80vh;
   }
 
-  .navbar {
+  .Navbar {
     position: absolute;
     /* top:80px;  */
     top: -600px;
@@ -909,7 +913,7 @@ form textarea {
     width: 200px;
   }
 
-  .navbar a {
+  .Navbar a {
     display: block;
     padding: 1.2rem;
     margin: 1.5rem;
@@ -917,16 +921,16 @@ form textarea {
     color: var(--bg-color);
   }
 
-  .navbar a:hover {
+  .Navbar a:hover {
     background: var(--bg-color);
     color: var(--main-color);
   }
 
-  .navbar a::after {
+  .Navbar a::after {
     display: none;
   }
 
-  .navbar.active {
+  .Navbar.active {
     top: 100%;
     /* right: 1%; */
   }
@@ -1005,7 +1009,7 @@ form textarea {
   }
 
   .title{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   :root {
