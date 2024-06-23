@@ -1003,13 +1003,30 @@ form textarea {
   .home-content h5{
     font-size: 1.55rem;
   }
+
+  .title{
+    font-size: 1.4rem;
+  }
+
   :root {
     --big-font: 2rem;
+  }
+}
+
+@media (max-width:430px) {
+  .title{
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width:400px) {
   .home-content h5{
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width:330px) {
+  .title{
+    font-size: 0.8rem;
   }
 }
