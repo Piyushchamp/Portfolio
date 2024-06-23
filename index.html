@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rochester&family=Rouge+Script&family=Sacramento&family=Sevillana&family=Sofia&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header Section Start-->
+  <header class="header">
+
+    <!-- <a href="#" class="logo"><img src="images/logo.png" alt=""></a> -->
+     <div class="title">
+      <h2>
+        <a href="#banner" aria-current="page">PIYUSH SHARMA</a>
+      </h2>
+    </div>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skill">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  </header>
+  <!-- Header Section Closed -->
+
+  <!-- Home Section Start-->
+  <section class="home" id="home">
+    <div class="home-content">
+
+      <h2>Hii , It's me</h2>
+      <h1>Piyush Sharma</h1>
+      <h5>A creative web developer.</h5>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, molestias?<br>Lorem ipsum dolor sit amet,
+        consectetur adipisicing.</p> -->
+      <!-- <div class="social">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <a href="#" class="btn">About Me</a> -->
+
+    </div>
+    <div class="home-img">
+      <img src="images/main.png" alt="">
+    </div>
+  </section>
+  <!-- Home Section Closed-->
+
+  <!-- About Section Start-->
+  <div id="about">
+    <div class="container">
+      <h1 class="sub-title">About Me</h1>
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <p class="about-desc">I am currently in my third year of pursuing a B.Tech in Computer Science and Engineering at the University of Engineering and Management, Jaipur. My passion lies in front-end web development, and I am deeply engaged with the latest trends and technologies in this dynamic field. I am dedicated to enhancing my expertise through continuous learning and hands-on projects. In addition to my academic pursuits, I actively contribute to The Speech Society as a core team member, where I utilize my skills as both a Web Developer and a Content Writer.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="experience">
+            <div class="content-row">
+              <div class="row-exp">
+                <ul>
+                  <li><span><i class='bx bx-id-card'></i> GDSC UEM JAIPUR</span><br>Position - Technical Team
+                    Member<br>Duration - Jan,2024 - Current <br>
+                    <a href="images/GDSC.pdf" target="_blank" previewlistener="true"><button class="exp-btn">Offer
+                        Letter</button></a>
+                  </li>
+                  <li><span><i class='bx bx-id-card'></i> ACM Student Chapter</span><br>Position - Member<br>Duration -
+                    Sep,2023 - Current <br>
+                    <a href="images/ACM.pdf" target="_blank" previewlistener="true"><button class="exp-btn">Offer
+                        Letter</button></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row-exp">
+                <ul>
+                  <li><span><i class='bx bx-id-card'></i> Codsoft</span><br>Position - Web Devlopment Intern<br>Duration
+                    - Jun,2024 - Current <br>
+                    <a href="images/codesoft.pdf" target="_blank" previewlistener="true"><button class="exp-btn">Offer
+                        Letter</button>
+                    </a>
+                  </li>
+                  <li><span><i class='bx bx-id-card'></i> Prasunet Company</span><br>Position - Web Devlopment
+                    Intern<br>Duration - Jun,2024 - Current <br>
+                    <a href="images/Parsunet.pdf" target="_blank" previewlistener="true"><button class="exp-btn">Offer
+                        Letter</button></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span><i class='bx bxs-graduation'></i> Bachelor of Technology (Computer Science and
+                  Engineering)</span><br>UEM , Jaipur<br>2022-2026</li>
+              <li><span><i class='bx bxs-school'></i> Higher Secondary Education</span><br>SPV , Kolkata<br>2022</li>
+              <li><span><i class='bx bxs-school'></i> Secondary Education</span><br>AAS , Kolkata<br>2020</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section Closed-->
+
+
+  <!-- Skill Section Start -->
+  <div id="skill">
+    <div class="container">
+      <h1 class="sub-title">My Skills</h1>
+      <div class="row">
+        <div class="skills-col-1">
+          <h1 class="heading">Technical Skills</h1>
+          <div class="technical-bars">
+            <h1 class="skill-type">WEB DEVELOPMENT</h1>
+            <div class="bar">
+              <div class="info">
+                <i class='bx bxl-html5'></i><span> HTML - <span class="expert">Expert</span></span>
+              </div>
+              <div class="progress-line html">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <i class='bx bxl-css3'></i><span> CSS - <span class="intermediate">Intermediate</span></span>
+              </div>
+              <div class="progress-line css">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <div class="info">
+                <i class='bx bxl-javascript'></i><span> Javascript - <span
+                    class="intermediate">Intermediate</span></span>
+              </div>
+              <div class="progress-line js">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar last">
+              <div class="info">
+                <i class='bx bxl-react'></i><span> ReactJS - <span class="beginner">Beginner</span></span>
+              </div>
+              <div class="progress-line react">
+                <span></span>
+              </div>
+            </div>
+
+            <h1 class="skill-type">APP DEVELOPMENT</h1>
+            <div class="bar">
+              <div class="info">
+                <i class='bx bxl-flutter'></i><span> Flutter - <span class="beginner">Beginner</span></span>
+              </div>
+              <div class="progress-line flutter">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-col-2">
+          <h1 class="heading">Proffessionals Skills</h1>
+          <div class="radial-bars">
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percantage">80%</div>
+              <div class="text">Communication</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percantage">70%</div>
+              <div class="text">Creativity</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percantage">60%</div>
+              <div class="text">Team Work</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percantage">90%</div>
+              <div class="text">Management</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Portfolio Section Start-->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+
+      <div class="academic-project">
+        <h1 class="sub-titlep">Academic Projects</h1>
+
+        <div class="ap">
+          <p class="project-title">Inventory Management</p>
+          <div class="sidebar">
+            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ducimus nemo vero
+              mollitia aliquid, harum similique tempore doloremque animi quam. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sint odio laboriosam labore esse maxime repudiandae aperiam in! Tenetur, quas repellat!
+            </p>
+          </div>
+          <div class="project-link">
+            <a href="#"><button class="project-button">Visit Website</button></a>
+            <a href="#"><button class="project-button">View Code</button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="other-project">
+        <h1 class="sub-titlep">Other Projects</h1>
+
+        <div class="ap">
+          <p class="project-title">GDSC Website</p>
+          <div class="sidebar">
+            <p class="project-desc">This is dynamic platformto showcase the initiatives, events, achievements and resources of GDSC UEM JAIPUR . This platform is designed to immerse you in a rich ecosystem of technology resources, including workshops, tutorials, and community-driven projects. Discover opportunities to enhance your skills in web development, mobile applications, cloud computing, and more.
+            </p>
+          </div>
+          <div class="project-link">
+            <a href="https://gdsc.uem.edu.in/" target="_blank" previewlistener="true"><button class="project-button">Visit Website</button></a>
+            <a href="https://github.com/GDSC-UEM-JAIPUR/GDSC-UEMJ" target="_blank" previewlistener="true"><button class="project-button">View Code</button></a>
+          </div>
+        </div>
+
+
+        <div class="ap">
+          <p class="project-title">TextUtils</p>
+          <div class="sidebar">
+            <p class="project-desc">
+              TextUtils is a word counter and a character counting utility which can be used to manipulate your text in the way you want. You can copy the manipulated text as well as convert your text from Uppercase to lowercase and lowercase to Uppercase
+            </p>
+          </div>
+          <div class="project-link">
+            <a href="https://piyushchamp.github.io/my-app/" target="_blank" previewlistener="true"><button class="project-button">Visit Website</button></a>
+            <a href="https://github.com/Piyushchamp/my-app" target="_blank" previewlistener="true"><button class="project-button">View Code</button></a>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Portfolio Section closed-->
+
+  <!-- Contact Section Start-->
+  <div id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="row">
+        <div class="contact-left">
+
+          <form id="contact-form">
+            <input id="name" type="text" name="Name" placeholder="Your Name" required>
+            <input id="mail" type="email" name="Email" placeholder="Your Email" required>
+            <textarea id="msg" name="Message" rows="6" placeholder="Your Message" required></textarea>
+            <button type="submit" class="top-btn" style="cursor: pointer;">Submit</button>
+          </form>
+        </div>
+        <div class="contact-right">
+          <p><i class='bx bx-envelope'></i><a href="mailto:ss6033630@gmail.com" style="color: black;">ss6033630@gmail.com</a></p>
+          <p><i class='bx bx-phone'></i>8582861018</p>
+          <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+          </div>
+          <a href="images/RESUME (3).pdf" download class="top-btn">Download CV</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright <i class='bx bx-copyright'></i> Piyush Sharma</p>
+    </div>
+  </div>
+
+
+  <!-- script tags -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
