@@ -1011,6 +1011,18 @@ form textarea {
     font-size: 1.1rem;
   }
 
+  .text{
+    font-size: 1.2rem;
+  }
+
+  .skill-type{
+    font-size: 1.5rem;
+  }
+
+  .info span{
+    font-size: 1.3rem;
+  }
+
   :root {
     --big-font: 2rem;
   }
@@ -1020,11 +1032,25 @@ form textarea {
   .title{
     font-size: 1rem;
   }
-}
 
+  .sub-titlep{
+    font-size: 2rem;
+  }
+  .heading{
+    font-size: 1.9rem;
+  }
+}
 
 @media (max-width:330px) {
   .title{
     font-size: 0.8rem;
   }
+
 }
+
+@media (max-width:300px) {
+  .info span{
+    font-size: 1.2rem;
+  }
+}
+
