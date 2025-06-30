@@ -388,7 +388,7 @@ header.sticky {
 }
 
 .react span {
-  width: 30%;
+  width: 60%;
   background-color: #61DBFB;
 }
 
@@ -453,7 +453,7 @@ header.sticky {
 }
 
 .react span::after {
-  content: "30%";
+  content: "60%";
 }
 
 .flutter span::after {
